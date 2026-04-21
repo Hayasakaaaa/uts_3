@@ -7,8 +7,8 @@ import pandas as pd
 @st.cache_resource
 def load_models():
     # Pastikan nama file .pkl sesuai dengan yang Anda simpan sebelumnya
-    model_regresi = joblib.load("artifacts/burnout_pipeline_RF.pkl") 
-    model_klasifikasi = joblib.load("artifacts/burnout_pipeline_RF_cls.pkl")
+    model_regresi = joblib.load("burnout_pipeline_RF.pkl") 
+    model_klasifikasi = joblib.load("burnout_pipeline_RF_cls.pkl")
     return model_regresi, model_klasifikasi
 
 def main():
