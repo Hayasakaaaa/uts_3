@@ -53,7 +53,7 @@ def main():
     
     with col3:
         sleep_hours = st.number_input("Sleep Hours per Day", min_value=0.0, max_value=24.0, value=0.0)
-        stress_level = st.number_input("Stress Level" , min_value = 1, max_value=10, value= 0)
+        stress_level = st.number_input("Stress Level" , min_value = 1, max_value=10, value= 1)
         part_time_job = st.radio("Part Time Job", ["No", "Yes"])
         internet_access = st.radio("Internet Access", ["Yes", "No"])
         
