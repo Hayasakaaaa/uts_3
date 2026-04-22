@@ -24,7 +24,7 @@ def main():
         twelfth_percentage = st.number_input("12th Percentage", min_value=0.0, max_value=100.0, value=0.0)
         attendance_percentage = st.number_input("Attendance Percentage", min_value=0.0, max_value=0.0, value=0.0)
         study_hours = st.number_input("Study Hours per Day", min_value=0.0, max_value=24.0, value=0.0)
-        backlogs = st.number_input("Backlogs (Mata kuliah mengulang)", min_value=0, max_value=20, value=0.0)
+        backlogs = st.number_input("Backlogs (Mata kuliah mengulang)", min_value=0, max_value=20, value=0)
 
     with col2:
         st.subheader("Skill & Aktivitas")
