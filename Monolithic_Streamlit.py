@@ -32,14 +32,14 @@ def main():
         twelfth_percentage = st.number_input("12th Percentage", min_value=0.0, max_value=100.0, value=0.0)
         attendance_percentage = st.number_input("Attendance Percentage", min_value=0.0, max_value=0, value=0.0)
         study_hours = st.number_input("Study Hours per Day", min_value=0.0, max_value=24.0, value=0.0)
-        backlogs = st.number_input("Backlogs (Mata kuliah mengulang)", min_value=0, max_value=20, value=0.0)
+        backlogs = st.number_input("Backlogs (Mata kuliah mengulang)", min_value=0, max_value=20, value=0)
 
     with col2:
         st.subheader("Skill & Aktivitas")
-        projects = st.number_input("Projects Completed", min_value=0, max_value=50, value=0.0)
-        internships = st.number_input("Internships Completed", min_value=0, max_value=20, value=0.0)
-        hackathons = st.number_input("Hackathons Participated", min_value=0, max_value=50, value=0.0)
-        certifications = st.number_input("Certifications Count", min_value=0, max_value=50, value=0.0)
+        projects = st.number_input("Projects Completed", min_value=0, max_value=50, value=0)
+        internships = st.number_input("Internships Completed", min_value=0, max_value=20, value=0)
+        hackathons = st.number_input("Hackathons Participated", min_value=0, max_value=50, value=0)
+        certifications = st.number_input("Certifications Count", min_value=0, max_value=50, value=0)
         
         st.write("Rating Skill (1 - 5)")
         coding = st.slider("Coding Skill Rating", 1, 5, 3)
