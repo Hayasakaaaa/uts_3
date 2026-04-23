@@ -12,7 +12,7 @@ def load_models():
 
 def main():
     st.title('Employment dan Salary Prediction')
-    st.write("Masukkan data mahasiswa untuk memprediksi tingkat burnout.")
+    st.write("Masukkan data mahasiswa untuk memprediksi Salary.")
 
     col1, col2 = st.columns(2)
     with col1:
